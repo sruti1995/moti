@@ -1,0 +1,279 @@
+zomato 1page
+HTML CODE
+<body>
+    
+        
+    <div class="background">
+        <img src="back.png">
+    </div>
+    <nav class="navbar">
+        <ul>
+            <li>Log In</li>
+            <li class="create">Create an account</li>
+        </ul>
+
+    </nav>
+    <div class="allign">
+        <div class="logo">
+            <b>e!</b>
+        </div>
+
+        <div class="heading">
+            Find the best restaurants, cafés, and bars
+        </div>
+
+
+
+        <div class="se_in">
+            <div>
+                <select class="sel">
+                    <option default>select an option</option>
+                    <option>bangluru</option>
+                    <option>punjab</option>
+                    <option>kolkata</option>
+                    <option>visakapatnam</option>
+                    <option>pune</option>
+                </select>
+            </div>
+
+            
+            <div class="res">
+                <input placeholder="Search for Resturants">
+            </div>
+        </div>
+
+    </div>
+    <div class="search">Quick search</div>
+    <div class="sub">Discover restaurant by a rype of a meal</div>
+    <div class="row">
+        <div class="item">
+            <div class="item-left">
+                <img src="breakfast.png" style="height:160px; width:160px ;">
+            </div>
+            <div class="item-right">
+                <div class="iten-right-header">
+                    breakfast
+                </div>
+                <div class="item-right-content">
+                    Start your day with exclusive breakfast options
+                </div>
+
+            </div>
+
+        </div>
+        <div class="item">
+            <div class="item-left">
+                <img src="lunch.png" style="height:160px; width:160px ;">
+            </div>
+            <div class="item-right">
+                <div class="iten-right-header">
+                    Lunch
+                </div>
+                <div class="item-right-content">
+                    Start your day with exclusive breakfast options
+                </div>
+
+            </div>
+
+        </div>
+        <div class="item">
+            <div class="item-left">
+                <img src="snacks.png" style="height:160px; width:160px ;">
+            </div>
+            <div class="item-right">
+                <div class="iten-right-header">
+                    snacks
+                </div>
+                <div class="item-right-content">
+                    Start your day with exclusive breakfast options
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </div>
+    <div class="row">
+        <div class="item">
+            <div class="item-left">
+                <img src="dinner.png" style="height:160px; width:160px ;">
+            </div>
+            <div class="item-right">
+                <div class="iten-right-header">
+                    Dinner
+                </div>
+                <div class="item-right-content">
+                    Start your day with exclusive breakfast options
+                </div>
+
+            </div>
+
+        </div>
+        <div class="item">
+            <div class="item-left">
+                <img src="drink.png" style="height:160px; width:160px ;">
+            </div>
+            <div class="item-right">
+                <div class="iten-right-header">
+                    drink
+                </div>
+                <div class="item-right-content">
+                    Start your day with exclusive breakfast options
+                </div>
+
+            </div>
+
+        </div>
+        <div class="item">
+            <div class="item-left">
+                <img src="nightlife.png" style="height:160px; width:160px ;">
+            </div>
+            <div class="item-right">
+                <div class="iten-right-header">
+                    Nightlife
+                </div>
+                <div class="item-right-content">
+                    Start your day with exclusive breakfast options
+                </div>
+
+            </div>
+
+        </div>
+
+
+</body>
+
+
+</html>
+
+
+
+
+CSS CODE
+
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    position: absolute;
+    top: -18px;
+    right: 20px;
+}
+nav ul{
+    display: flex;
+    justify-content: right;
+    margin-left: 280px;
+    padding-top: 20px;
+}
+.navbar ul li{
+    list-style-type: none;
+    padding: 9px 20px 11px 26px;
+    color: white;
+}
+.create{
+    border: 2px solid white;
+}
+
+.background img {
+    display: inline-block;
+    height: 80%;
+    width: 100%;
+}
+
+
+.se_in{
+   display: flex;
+
+}
+.logo{
+    color: red;
+    background-color: white;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 78px;
+    margin-left: 95px;
+}
+.allign{
+    position:absolute;
+    top: 25%;
+    left: 33%;
+}
+.heading{
+    color: white;
+    font-size: 23;
+    font-weight: bold;
+    display: flex;
+}
+.sel{
+    height: 25px;
+    width: 120;
+}
+.res input{ 
+    height: 25px;
+    width: 286px;
+    margin-left: 10px;
+}
+.search{
+    font-size: 25px;
+margin-top: 30px;
+margin-left: 30px;
+color: #192F60;
+font-family: Arial;
+font-weight: 700;
+}
+.sub{
+    font-size: 15px;
+    margin-top: 4px;
+    margin-left: 30px;
+    color: #8C96AB;
+    font-family: Arial;
+    font-weight: 700;
+
+}
+.row{
+    margin-left: 32px;
+    margin-top: 15px ;
+}
+.item{
+    display: inline-block;
+    width: 360px;
+    height: 160px;
+    border: solid thin red;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+}
+.item-left{
+    display: inline-block;
+
+}
+.item-right{
+    display: inline-block;
+    width: 40%;
+    vertical-align: top;
+    padding-left: 10px;
+    padding-top: 35px;
+}
+.iten-right-header
+{
+    font-size: 22px;
+    color: #192F60;
+    font-weight: bolder;
+}
+.item-right-content
+{
+color: #8C96AB;
+    font-size: 14px;
+    font-family: arial;
+    padding-top: 3px;
+    color: #8C96AB;
+    
+}
