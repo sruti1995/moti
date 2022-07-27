@@ -1,0 +1,494 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>zomato2</title>
+    <link rel="stylesheet" href="zomato2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <ul>
+                <li>
+                    <a href="#">Login</a>
+                    <a class="create" href="#">Create an account</a>
+                </li>
+            </ul>
+        </div>
+        <div class="logo">
+            e!
+        </div>
+    </header>
+
+    <div class="allign">    
+    
+        <DIV class="hh">
+            <p>Breakfast places in Mumbai</p>
+        </div>
+        <div class="fi-box">
+            <div class="filter">
+                <div class="adjustment">
+                    <div class="Filters">Filters</div>
+                    <div class="seel">select location
+                        <div>
+                            <select class="sel">
+                                <option default>Please type a location</option>
+                                <option>bangluru</option>
+                                <option>punjab</option>
+                                <option>kolkata</option>
+                                <option>visakapatnam</option>
+                                <option>pune</option>
+                            </select>
+                        </div>
+                        <div class="cusine">cusine</div>
+                        <div class="cu">
+                            <input type="checkbox" name="" id=""> <span class="Name">North Indian</span><br>
+                            <input type="checkbox" name="" id="" checked> <span class="Name" >South Indian</span><br>
+                            <input type="checkbox" name="" id="" checked> <span class="Name">Chinese</span><br>
+                            <input type="checkbox" name="" id=""> <span class="Name">Fast food</span><br>
+                            <input type="checkbox" name="" id=""> <span class="Name">Street Food</span><br>
+                        </div>
+
+                        <div class="cst">cost For Two</div>
+                        <div class="cu">
+                            <input type="radio" name="" id=""> <span class="price">Less than ` 500</span><br>
+                            <input type="radio" name="" id=""> <span class="price">` 500to ` 1000</span><br>
+                            <input type="radio" name="" id=""> <span class="price">` 1000 to ` 1500</span><br>
+                            <input type="radio" name="" id=""> <span class="price">` 1500 to ` 2000</span><br>
+                            <input type="radio" name="" id=""> <span class="price">` 2000+</span><br>
+                        </div>
+
+                        <div class="sort">Sort</div>
+                        <div class="cu">
+                            <input type="radio" name="" id=""> <span class="Name">Popularity</span><br>
+                            <input type="radio" name="" id=""> <span class="Name">Price low to high</span><br>
+                            <input type="radio" name="" id=""> <span class="Name">price high to low</span><br>
+                            <input type="radio" name="" id=""> <span class="Name">Newest first</span><br>
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="box1">
+                    <div class="item1">
+                        <div class=" im1">
+                            <div class="img">
+                                <img src="breakfast.png" alt="">
+
+                            </div>
+                            <div class="content1">
+                                <div>
+                                    <h2>The big chill cakery</h2>
+                                </div>
+                                <div class="p1">
+                                    <p class="p0">Fort</p>
+                                </div>
+                                <div class="sp1">
+                                    <p class="p1">Shop 1, Plot D, Samruddhi Complex, Chincholi …</p>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="h1">
+                            <hr>
+                        </div>
+                        <div class="below">
+                            <div class="cost1">
+                                CUISINES:<br> COST FOR TWO:
+
+                            </div>
+                            <div class="rs">
+                                Bakery ₹700
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item2">
+                        <div class="im1">
+                            <div class="img">
+                                <img src="Breakfast.png" alt="">
+                            </div>
+                            <div class="content2">
+
+                                <h2>The Bake Shop</h2>
+
+                                <div>
+                                    <p class="p2">Fort</p>
+                                </div>
+                                <div class="sp2">
+                                    <p class="p11">Shop 1, Plot D, Samruddhi Complex, Chincholi …</p>
+                                </div>
+
+
+                            </div>
+                        </div>
+                        <div class="h1">
+                            <hr>
+                        </div>
+
+                        <div class="last">
+                            <div class="cost2">
+                                CUISINES:<br> COST FOR TWO:
+                            </div>
+                            <div class="rs1">
+                                Bakery ₹700
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<div class="page">
+    <p class="Numbers"><</p>
+    <p class="Numbers">1</p>
+    <p class="Numbers">2</p>
+    <p class="Numbers">3</p>
+    <p class="Numbers">4</p>
+    <p class="Numbers">5</p>
+    <p class="Numbers">></p>
+    </div>
+</section>
+</body>
+
+</html>
+
+
+
+
+
+
+
+css
+
+
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  .container {
+    padding: 17px;
+    background-color: #CE0505;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .container ul li a {
+    color: white;
+    margin: 8px;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .container ul li {
+    list-style: none;
+    margin-right: 29px;
+  }
+  .logo {
+    display: flex;
+    color: red;
+    background-color: white;
+    font-weight: bold;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    flex-direction: column-reverse;
+    align-items: center;
+    font-size: 47px;
+    margin-top: -54px;
+    margin-left: 136px;
+  }
+.create{
+    border: 2px solid white;
+    margin-left: 10px;
+    padding: 6px 10px;
+    border-radius: 10px;
+  }
+.allign{
+        position:absolute;
+        top: 25%;
+        left: 33%;
+ }
+
+/*left side*/
+.hh{
+    display: flex;
+    margin-top: -90px;
+    margin-bottom: 34px;
+    margin-right: 100px;
+    color: #192F60;
+    margin-left: -347px;
+    font-weight: 500;
+    font-size: 38px;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.sel{
+    padding: 10px;
+
+}
+.fi-box{
+    display: flex;
+}
+.filter{
+    border: 2px solid black;
+    width: 200px;
+    height: 481px;
+    margin-left: -347px;
+    margin-top:5px;
+}
+
+.adjustment{
+    margin-left: 30px;
+    margin-top: 15px; 
+}
+.filters{
+    margin-top: -5px;
+    font-size: 18px;
+    color: #192F60;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+.seel{
+    margin-top: 7px;
+    color: #192F60;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+.cusine{
+    margin-top: 15px;
+    font-size: 16px;
+    color: #192f60;
+    opacity: 1;
+    font-family: 'Montserrat', sans-serif;
+}
+.cu{
+    margin-top: 10px;
+    font-size: 12px;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+.name{
+    margin-left:10px;
+}
+.cst{
+    margin-top: 15px;
+    font-size: 16px;
+    color: #192f60;
+    opacity: 1;
+    font-family: 'Montserrat', sans-serif;
+   
+}
+
+.radio{
+    margin-top: 10px;
+    
+}
+.sort{
+    margin-top: 15px;
+    font-size: 16px;
+    color: #192f60;
+    opacity: 1;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.sort_radio{
+    margin-top: 10px;
+}
+.se_in{
+    display: flex;
+    color: #192F60;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+ 
+ }
+.seel select {
+    width: 161px;
+    padding: 6px 0px 6px 6px;
+    height: 30px;
+    margin-top: 3px;
+}
+/*Right Side*/
+.box{
+    margin-left: 30px;
+}
+.item1{
+   
+    
+    width: 700px;
+    height: 226px;
+    margin-top:-445px;
+    margin-left: 281;
+    box-shadow: 0px 3px 6px #00000029;
+    padding: 2px;
+    
+}
+.item2{
+    
+    width: 700px;
+    height: 217px;
+    margin-top: 15px;
+    margin-left: 282px;
+    box-shadow: 0px 3px 6px #00000029;
+}
+.img img{
+    height: 100px;
+    width: 100px;
+    border-radius: 15px;
+    margin-top: -1px;
+}
+.im1{
+    display: flex;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+.content1{
+    margin-left: 40px;
+    margin-top: -15px;
+    font-family: 'Montserrat', sans-serif;
+}
+.content1 h2{
+    color: #192F60;
+    margin-left: -3px;
+    font-weight: bolder;
+    margin-top: 27px;
+    font-family: 'Montserrat', sans-serif;
+}
+.content2{
+    margin-left: 40px;
+    margin-top: -15px;
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+.content2 h2{
+    color: #192F60;
+    margin-left: -3px;
+    font-weight: bolder;
+    margin-top: 4px;
+    font-family: 'Montserrat', sans-serif;
+}
+.p0{
+    margin-top:-31px;
+    font-size: 17px;
+    color: #192F60;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+.p1{
+    margin-top: 40px;
+    font-size: 89%;
+    color: #636F88;
+    opacity: 1;
+    font-family: 'Montserrat', sans-serif;
+}
+.h1{
+    width: 635px;
+    margin: 18px 9px;
+    font-family: 'Montserrat', sans-serif;
+}
+.last{
+    display: flex;
+    margin-top: 25px;
+   
+}
+.cost1{
+    display: absolute;
+    width: 140px;
+    margin-left: 23px;
+    line-height: 25px;
+    color: rgb(99, 111, 136);
+    margin-top: -5px;
+    font-family: 'Montserrat', sans-serif;
+}
+.cost2{
+    width: 140px;
+    margin-left: 23px;
+    line-height: 25px;
+    color: rgb(99, 111, 136);
+    margin-top: -5px;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.rs{
+    width: 10px;
+    margin-left: 195px;
+    margin-top: -53px;
+    line-height: 25px;
+    color: #192F60;
+    font-weight: bolder;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.rs1{
+    width: 10px;
+    margin-left:52px;
+    line-height: 25px;
+    color: #192F60;
+    margin-top:-5px;
+    font-weight: bolder;
+    font-family: 'Montserrat', sans-serif;
+    
+    
+}
+.content1 h1{
+    color: #192F60;
+    font-weight: bolder;
+    margin-top: 33px;
+    font-family: 'Montserrat', sans-serif;
+}
+.p11{
+    font-size: 82%;
+    color: #636F88;
+    opacity: 1;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 21px;
+}
+.sp1{
+   font-size: 90%;
+    margin-top:-33px;
+    color: #636F88;
+    opacity: 1;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.content2 h1{
+    color: #192F60;
+    font-weight: bolder;
+    margin-top: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+.p2{
+    color: #192F60;
+    font-weight: bold;
+    margin-top:3px;
+    font-family: 'Montserrat', sans-serif;
+}
+.sp2{
+    color: #192F60;
+    font-weight: bolder;
+    margin-top:-14px;
+    font-family: 'Montserrat', sans-serif;
+}
+.page{
+    display: flex;
+    margin-top: 500px;
+    margin-left: 228px;
+    font-family: 'Montserrat', sans-serif;
+}
+.numbers{
+    font-size: 18px;
+    margin: -5px 12px;
+    padding: 5px;
+    border-radius: 8px;
+    margin-top: -3px;
+    border: 2px solid #8c96ab;
+    color: #8c96ab;
+    opacity: 1;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 10px;
+}
